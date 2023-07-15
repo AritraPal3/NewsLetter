@@ -1,4 +1,5 @@
 Newsletter Signup
+
 This project is a Newsletter Signup page that collects user's name and email address and sends the data to Mailchimp's servers via API calls. It is developed using ExpressJS, NodeJS, Mailchimp API, JSON, HTML, and CSS.
 
 Table of Contents
