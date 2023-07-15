@@ -12,7 +12,7 @@ const url=`https://us21.api.mailchimp.com/3.0/lists/${process.env.LIST_ID}`;
 console.log(process.env.API_KEY)
 console.log(process.env.LIST_ID)
 
-app.listen(3000,()=>{
+app.listen(process.env.PORT||3000,()=>{
     console.log("Server started at port 3000");
 })
 
