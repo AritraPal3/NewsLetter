@@ -10,8 +10,12 @@ Configuration
 To run this project locally, follow these steps:
 
 Clone the repository: git clone https://github.com/AritraPal3/NewsLetter.git
+
 Navigate to the project directory: cd NewsLetter
+
 Install the dependencies: npm install
+
+
 Usage
 To use this Newsletter Signup page, follow these steps:
 
