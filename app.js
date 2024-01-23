@@ -7,7 +7,7 @@ const app=express();
 app.use(bodyPars.urlencoded({extended:true}));
 app.use(express.static("public"));
 
-const url=`https://us21.api.mailchimp.com/3.0/lists/${process.env.LIST_ID}`;
+const url=`https://us5.api.mailchimp.com/3.0/lists/${process.env.LIST_ID}`;
 
 console.log(process.env.API_KEY)
 console.log(process.env.LIST_ID)
